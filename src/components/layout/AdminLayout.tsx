@@ -4,7 +4,7 @@ import Topbar from "./Topbar";
 import { menuItems } from "../../data/menuItems";
 import type { PageKey } from "../../types/common.types";
 
-// This asmin layout
+// This admin layout
 type AdminLayoutProps = {
   activePage: PageKey;
   pageTitle: string;
