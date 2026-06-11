@@ -4,6 +4,7 @@ import Topbar from "./Topbar";
 import { menuItems } from "../../data/menuItems";
 import type { PageKey } from "../../types/common.types";
 
+// This asmin layout
 type AdminLayoutProps = {
   activePage: PageKey;
   pageTitle: string;
@@ -11,6 +12,7 @@ type AdminLayoutProps = {
   onLogout: () => void;
   children: React.ReactNode;
 };
+
 
 const AdminLayout = ({
   activePage,
